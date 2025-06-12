@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
+
 }
 
 header {
@@ -11,16 +11,24 @@ header {
 }
 
 
+
 /*Utility class */
 
 .bg-silver {
   background-color: silver;
 }
 
+.bg-azzurro {
+  background-color: #B4D0E6;
+}
 
+.bg-blue {
+  background-color: #0061FE;
+}
 
-
-
+.b-style {
+  font-weight: bold;
+}
 
 
 /*content class */
@@ -34,6 +42,7 @@ header {
 
 /*Layout class */
 
+/*header */
 .list {
   display: flex;
   list-style: none;
@@ -41,8 +50,14 @@ header {
 
 }
 
-
 .container {
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0;
+}
+
+/*header fine*/
+
+/*jumbotron */
+.jumbotron {
+  max-width: 1500px;
 }
