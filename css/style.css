@@ -5,7 +5,10 @@
   border: 1px solid black;
 }
 
-
+header {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /*Utility class */
@@ -30,6 +33,11 @@
 
 
 /*Layout class */
+
+.list {
+  display: flex;
+
+}
 
 
 .container {
