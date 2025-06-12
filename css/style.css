@@ -35,6 +35,10 @@ header {
   background-color: #0061FE;
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .white {
   color: white;
 }
@@ -172,4 +176,15 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+
+/*inizio col footer */
+
+.flex {
+  display: flex;
+}
+
+.delete.figlio> :first-child {
+  font-weight: bold;
 }
