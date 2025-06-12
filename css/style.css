@@ -120,6 +120,11 @@ header {
 
 /*main container */
 
+.movimento {
+  display: flex;
+  justify-content: center;
+}
+
 .contenitore {
   max-width: 1200px;
   margin: 0;
