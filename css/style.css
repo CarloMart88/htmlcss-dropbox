@@ -117,3 +117,8 @@ header {
   margin: 0;
 
 }
+
+.col-300 {
+  width: 350px;
+  height: 800px;
+}
