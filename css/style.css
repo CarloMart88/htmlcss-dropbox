@@ -11,21 +11,24 @@ header {
   justify-content: space-between;
 }
 
-main {
+
+.justify-content {
   display: flex;
   justify-content: center;
-}
 
+}
 
 
 /*Utility class */
 
 .bg-silver {
+
   background-color: silver;
 }
 
 .bg-azzurro {
   background-color: #B4D0E6;
+
 }
 
 .bg-blue {
@@ -81,6 +84,7 @@ main {
   max-width: 1500px;
   text-align: center;
   position: relative;
+
 }
 
 .jumbo-list {
@@ -103,4 +107,12 @@ main {
 
 .row1 {
   width: 500px
+}
+
+/*main container */
+
+.contenitore {
+  max-width: 1200px;
+  margin: 0;
+  height: 800px;
 }
