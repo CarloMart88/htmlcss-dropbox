@@ -53,6 +53,8 @@ header {
   margin-bottom: 200px;
 }
 
+
+
 /*content class */
 
 
@@ -119,6 +121,15 @@ header {
 }
 
 .col-300 {
-  width: 350px;
-  height: 800px;
+  width: 33%;
+  padding: 0 10px;
+
+}
+
+.menu {
+  display: flex;
+}
+
+.delete {
+  list-style: none;
 }
