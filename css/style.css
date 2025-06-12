@@ -159,3 +159,17 @@ header {
 
 
 /*1 riga sei colonne */
+
+.riquadro {
+  width: 32%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.contenitore.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
