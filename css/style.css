@@ -91,7 +91,10 @@ ul.list li {
 
 }
 
-.zoom {}
+.zoom {
+  margin: 10px 0;
+  font-size: 3rem;
+}
 
 /*content class */
 
@@ -148,7 +151,7 @@ li {
 .size {
   width: 50%;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
 }
 
