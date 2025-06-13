@@ -20,6 +20,10 @@ header {
 
 
 /*Utility class */
+.center {
+  display: flex;
+  justify-content: center
+}
 
 .h100 {
   height: 100%;
@@ -41,6 +45,10 @@ header {
 
 .bg-black {
   background-color: black;
+}
+
+.blue {
+  color: #0061FE;
 }
 
 .white {
@@ -71,6 +79,10 @@ header {
   width: 50%;
 }
 
+.p-25 {
+  padding: 15px 50px;
+}
+
 .p-20 {
   padding: 20px 0;
 }
@@ -94,6 +106,10 @@ ul.list li {
 .zoom {
   margin: 10px 0;
   font-size: 3rem;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /*content class */
