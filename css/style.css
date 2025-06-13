@@ -70,6 +70,10 @@ header {
 
 }
 
+.mb-5 {
+  margin-bottom: 5%;
+
+}
 
 .pb-10 {
   padding-bottom: 10%;
@@ -210,6 +214,7 @@ li {
   max-width: 100%;
   margin: 0;
   text-align: center;
+
 }
 
 /*contenitore box picture */
