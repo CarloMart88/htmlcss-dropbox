@@ -121,6 +121,11 @@ header {
 }
 
 
+.flex {
+  display: flex;
+}
+
+
 ul.list li {
   margin: 10px;
   padding: 10px;
@@ -164,6 +169,8 @@ ul.list li {
   justify-content: space-between;
 }
 
+
+
 /*header fine*/
 
 /*jumbotron */
@@ -202,7 +209,18 @@ li {
   left: 16%;
 }
 
+.relative {
+  position: relative;
+  top: 37px;
+}
+
 /*main container */
+
+.cerchio {
+  border: 4px solid #0061FE;
+  border-radius: 100%;
+  width: 20px;
+}
 
 .movimento {
   display: flex;
@@ -275,10 +293,6 @@ li {
 
 
 /*inizio col footer */
-
-.flex {
-  display: flex;
-}
 
 .delete.figlio :first-child {
   font-weight: bold;
